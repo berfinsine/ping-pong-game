@@ -3,7 +3,7 @@ package com.berfinsine.pingponggame.components;
 import android.content.Context
 
 open class Player (context: Context, shapeId: Int?) : Sprite(context, shapeId) {
-    var health = 3
+    var health = 5
     var score = 0
 
     override var updateRate: Int = 1
