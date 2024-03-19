@@ -4,7 +4,7 @@ import android.content.Context
 
 open class Player (context: Context, shapeId: Int?) : Sprite(context, shapeId) {
     var health = 8
-    var score = 0
+    var score = 10
 
     override var updateRate: Int = 1
     override var timeToUpdate: Long = System.currentTimeMillis()
