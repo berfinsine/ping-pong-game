@@ -54,7 +54,7 @@ class GameView (context: Context?, vsAI: Boolean = true) : SurfaceView(context),
         game?.state = Game.STATE.END
         try {
             mThread?.join()
-        } catch (e:InterruptedException) {
+        } catch (_:InterruptedException) {
         }
     }
 
