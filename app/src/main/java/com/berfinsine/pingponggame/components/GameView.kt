@@ -76,8 +76,9 @@ class GameView (context: Context?, vsAI: Boolean = true) : SurfaceView(context),
             while (shouldUpdate) {
                 update()
             }
+            render()
         }
-        render()
+
     }
 
     override fun update() {

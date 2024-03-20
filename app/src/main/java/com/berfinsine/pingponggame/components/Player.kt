@@ -1,4 +1,4 @@
-package com.berfinsine.pingponggame.components;
+package com.berfinsine.pingponggame.components
 
 import android.content.Context
 
@@ -15,3 +15,4 @@ open class Player (context: Context, shapeId: Int?) : Sprite(context, shapeId) {
         }
     }
 }
+
