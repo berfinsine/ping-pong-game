@@ -56,11 +56,11 @@
 
     <Button
         android:id="@+id/voice_btn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="76dp"
+        android:layout_height="59dp"
         android:layout_marginStart="4dp"
         android:layout_marginTop="592dp"
-        android:text="Voice"
+        app:icon="@drawable/music"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

@@ -7,7 +7,6 @@ import android.os.Bundle
 import android.util.Log
 import android.view.View
 import androidx.appcompat.app.AlertDialog
-import com.berfinsine.pingponggame.R
 import com.berfinsine.pingponggame.components.Game
 import com.berfinsine.pingponggame.components.GameView
 import com.berfinsine.pingponggame.interfaces.GameStateListener
@@ -73,9 +72,8 @@ class MainActivity : AppCompatActivity(), View.OnClickListener, GameStateListene
                 menuDialog.show()
             })
 
-            else -> {
 
-            }
+            else -> {}
         }
     }
 }
